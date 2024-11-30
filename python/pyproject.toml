@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "topics"
+version = "0.1.0"
+description = "Repository to log the  different topics in python"
+authors = ["malam1 <mohammad_saquibalam@intuit.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jupyterlab = "^4.3.1"
+notebook = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
